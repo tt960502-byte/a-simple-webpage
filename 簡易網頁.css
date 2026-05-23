@@ -1,0 +1,57 @@
+body {
+    font-family: "Microsoft JhengHei", sans-serif;
+    background: #fff8e7;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    background-color: #ffb347;
+    padding: 1.5em;
+    color: white;
+}
+
+.city-container {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 2em;
+}
+
+.city {
+    background: #fff;
+    border: 2px solid #ffb347;
+    padding: 1em 2em;
+    border-radius: 10px;
+    font-size: 1.2em;
+    transition: 0.3s;
+}
+
+.city:hover {
+    background: #ffb347;
+    color: white;
+}
+
+.food {
+    margin: 2em auto;
+    max-width: 500px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 1em;
+}
+
+.back-btn {
+    display: inline-block;
+    margin: 1.5em 0;
+    background-color: #ffb347;
+    color: white;
+    padding: 0.5em 1.2em;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.back-btn:hover {
+    background-color: #ff9933;
+}
